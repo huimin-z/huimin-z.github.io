@@ -1,0 +1,24 @@
+title: "Huimin"
+description: "代码是思考的外化，简洁是智慧的结晶。"
+baseurl: ""
+url: "https://huimin-z.github.io"
+author: Huimin
+
+# 主题
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+  
+# 导航
+header_pages:
+  - about.md
+  - archive.md
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 分页
+paginate: 5
+paginate_path: "/page:num/"
