@@ -4,21 +4,15 @@ baseurl: ""
 url: "https://huimin-z.github.io"
 author: Huimin
 
-# 主题
-remote_theme: jekyll/minima
-minima:
-  skin: dark
-  
-# 导航
-header_pages:
-  - about.md
-  - archive.md
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
 
 # 插件
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# 分页
-paginate: 5
-paginate_path: "/page:num/"
+# 自定义变量
+github_username: huimin-z

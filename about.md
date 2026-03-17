@@ -6,8 +6,14 @@ permalink: /about/
 
 你好，我是 **Huimin**。
 
-喜欢写代码，喜欢思考，喜欢简洁的东西。
+写代码是思考的外化，简洁是智慧的结晶。
 
-这个博客用来记录我的学习笔记、技术探索和一些随想。
+这个博客记录我的学习、思考和随想。没有固定主题，技术、读书、生活都有可能涉及。
 
-联系我可以发邮件或在 GitHub 上找到我。
+## 联系
+
+- GitHub: [@huimin-z](https://github.com/huimin-z)
+
+---
+
+<p style="color: var(--text-secondary); font-style: italic;">Stay curious. Keep building.</p>
