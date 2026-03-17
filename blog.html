@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>博客 | Huimin</title>
+  <meta name="description" content="Huimin 的博客 - 记录代码、思考与随想">
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    .blog-header {
+      background: var(--dark-bg);
+      color: var(--white);
+      padding: 8rem 0 4rem;
+      text-align: center;
+    }
+    .blog-header h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    .blog-list {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    .blog-post {
+      padding: 2rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    .blog-post:last-child {
+      border-bottom: none;
+    }
+    .blog-post__date {
+      color: var(--pink);
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+    .blog-post__title {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      color: var(--dark-bg);
+    }
+    .blog-post__title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .blog-post__title a:hover {
+      color: var(--pink);
+    }
+    .blog-post__excerpt {
+      font-size: 1.6rem;
+      color: #666;
+      line-height: 1.6;
+    }
+    .blog-post__tags {
+      margin-top: 1rem;
+    }
+    .blog-post__tag {
+      display: inline-block;
+      background: #f0f0f0;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-size: 1.2rem;
+      color: #666;
+      margin-right: 0.5rem;
+    }
+    .nav__link[href="blog.html"] {
+      color: var(--pink);
+    }
+  </style>
+</head>
+<body>
+  <header class="header" role="banner" style="min-height: auto; padding: 2rem 0;">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="index.html" class="nav__link">首页</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">关于</a></li>
+          <li class="nav__item"><a href="blog.html" class="nav__link">博客</a></li>
+          <li class="nav__item"><a href="index.html#contact" class="nav__link">联系</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="blog-header">
+    <div class="row">
+      <h1>随笔</h1>
+      <p>记录思考、技术与生活</p>
+    </div>
+  </section>
+
+  <main class="blog-list">
+    <article class="blog-post">
+      <div class="blog-post__date">2025年3月17日</div>
+      <h2 class="blog-post__title"><a href="post-hello-world.html">Hello World</a></h2>
+      <p class="blog-post__excerpt">
+        这是我的第一篇博客文章。写博客对我来说有几个意义：记录思考、倒逼输入、建立连接...
+      </p>
+      <div class="blog-post__tags">
+        <span class="blog-post__tag">随笔</span>
+        <span class="blog-post__tag">开始</span>
+      </div>
+    </article>
+  </main>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/huimin-z" title="GitHub">
+            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+          </a>
+        </li>
+      </ul>
+      <p>&copy; 2025 Huimin. Stay curious.</p>
+    </div>
+  </footer>
+</body>
+</html>

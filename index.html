@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>Huimin | 代码与思考</title>
+  <meta name="description" content="Huimin 的个人博客 - 记录代码、思考与随想">
+  <meta name="keywords" content="Huimin, 博客, 编程, 思考" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">关于</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">作品</a></li>
+          <li class="nav__item"><a href="blog.html" class="nav__link">博客</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">联系</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Huimin</span>
+        </h1>
+        <p>代码是思考的外化，简洁是智慧的结晶。</p>
+        <a href="blog.html" class="btn btn--pink">阅读随笔</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="about" id="about">
+      <div class="row">
+        <h2>关于我</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              喜欢写代码，喜欢思考，喜欢简洁的东西。
+              这个网站用来记录我的学习笔记、技术探索和一些随想。
+            </p>
+            <a href="blog.html" class="btn">阅读博客</a>
+          </div>
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/avatar.jpg" alt="Huimin" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>作品</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>个人博客</h3>
+              <p>用 Jekyll 搭建的极简博客，记录技术与思考。</p>
+              <ul class="work__list">
+                <li>Jekyll</li>
+                <li>GitHub Pages</li>
+                <li>极简设计</li>
+              </ul>
+              <div class="work__links">
+                <a href="blog.html" class="link__text">查看博客 <span>&rarr;</span></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="博客" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>联系我</h2>
+      <div class="contact__info">
+        <p>有问题想交流？欢迎通过 GitHub 联系我。</p>
+        <a href="https://github.com/huimin-z" class="btn" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/huimin-z" title="GitHub">
+            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+          </a>
+        </li>
+      </ul>
+      <p>&copy; 2025 Huimin. Stay curious.</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+</html>

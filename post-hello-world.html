@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>Hello World | Huimin 的博客</title>
+  <meta name="description" content="这是我的第一篇博客文章">
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    .post-header {
+      background: var(--dark-bg);
+      color: var(--white);
+      padding: 8rem 0 4rem;
+      text-align: center;
+    }
+    .post-header__date {
+      color: var(--pink);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    .post-header h1 {
+      font-size: 3.6rem;
+      margin-bottom: 1rem;
+    }
+    .post-content {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      font-size: 1.8rem;
+      line-height: 1.8;
+    }
+    .post-content h2 {
+      font-size: 2.4rem;
+      margin: 3rem 0 1.5rem;
+      color: var(--dark-bg);
+    }
+    .post-content p {
+      margin-bottom: 2rem;
+    }
+    .post-content ul {
+      margin-bottom: 2rem;
+      padding-left: 2rem;
+    }
+    .post-content li {
+      margin-bottom: 0.5rem;
+    }
+    .post-content code {
+      background: #f4f4f4;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 1.6rem;
+    }
+    .post-footer {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-top: 1px solid #eee;
+    }
+    .post-footer a {
+      color: var(--pink);
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header class="header" role="banner" style="min-height: auto; padding: 2rem 0;">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="index.html" class="nav__link">首页</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">关于</a></li>
+          <li class="nav__item"><a href="blog.html" class="nav__link">博客</a></li>
+          <li class="nav__item"><a href="index.html#contact" class="nav__link">联系</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <article>
+    <header class="post-header">
+      <div class="row">
+        <div class="post-header__date">2025年3月17日</div>
+        <h1>Hello World</h1>
+      </div>
+    </header>
+
+    <div class="post-content">
+      <p>这是我的第一篇博客文章。</p>
+
+      <h2>为什么开始写</h2>
+      <p>写博客对我来说有几个意义：</p>
+      <ul>
+        <li><strong>记录思考</strong> — 把零散的想法整理成文字</li>
+        <li><strong>倒逼输入</strong> — 为了能输出，必须持续学习</li>
+        <li><strong>建立连接</strong> — 或许能遇到志同道合的人</li>
+      </ul>
+
+      <h2>这个博客用什么搭建</h2>
+      <p><code>GitHub Pages</code> 免费托管，简洁的静态网站。</p>
+
+      <h2>接下来写什么</h2>
+      <ul>
+        <li>技术学习笔记</li>
+        <li>项目复盘</li>
+        <li>读书笔记</li>
+        <li>生活随想</li>
+      </ul>
+
+      <p>Stay tuned 🚀</p>
+    </div>
+
+    <footer class="post-footer">
+      <p><a href="blog.html">← 返回博客列表</a></p>
+    </footer>
+  </article>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/huimin-z" title="GitHub">
+            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+          </a>
+        </li>
+      </ul>
+      <p>&copy; 2025 Huimin. Stay curious.</p>
+    </div>
+  </footer>
+</body>
+</html>
